@@ -1,5 +1,5 @@
 <?php
-require("../lib/sendgrid-php/sendgrid-php.php");
+require("/lib/sendgrid-php/sendgrid-php.php");
 
 $request_body = json_decode('{
   "personalizations": [
