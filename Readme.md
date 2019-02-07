@@ -20,10 +20,12 @@ run in your project's terminal ./pull
 run in your project's terminal ./push
 
 **RoadMap**
-- Create PlaceHolder Folder with each section as a placeHolderSection and placeHolderTemplate to make it easier to copy and paste code
-- Create Similiar structure for the main files
-- Update contact Me to work
-- Populate the page with real info
+- [x] Automate Deployment to githuba and heroku
+- [x] Create test and production branches to not break master
+- [x] Create PlaceHolder Folder with each section as a placeHolderSection and placeHolderTemplate to make it easier to copy and paste code
+- [ ] Create Similiar structure for the main files
+- [ ] Update contact Me to work
+- [ ] Populate the page with real info
 
 To check the latest deployed Website go to:
 https://trainfy.herokuapp.com/
