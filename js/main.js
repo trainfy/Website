@@ -53,6 +53,8 @@
     $('#header').addClass('header-scrolled');
   }
 
+  
+
   // Smooth scroll for the navigation and links with .scrollto classes
   $('.main-nav a, .mobile-nav a, .scrollto').on('click', function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -132,6 +134,9 @@
     loop: true,
     items: 1
   });
+
+  // Modal video
+  new ModalVideo('.js-modal-btn', {channel: 'youtube'});
 
 })(jQuery);
 
