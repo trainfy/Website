@@ -11,4 +11,7 @@ git commit -m "Something useful"
 git push -u origin master
 
 //push to heroku ( not needed anymore!!)
- //git push heroku master
+//git push heroku master
+
+//To pull updates from repo
+git pull origin master
