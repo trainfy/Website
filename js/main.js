@@ -23,6 +23,20 @@
     return false;
   });
 
+  // ========================================================================= //
+  //  Typed Js
+  // ========================================================================= //
+
+  var typed = $(".typed");
+
+  $(function() {
+    typed.typed({
+      strings: ["Moustafa.", "Designer.", "Developer.", "Freelancer.", "Photographer"],
+      typeSpeed: 100,
+      loop: true,
+    });
+  });
+
   // Initiate the wowjs animation library
   new WOW().init();
 
