@@ -31,7 +31,7 @@
 
   $(function() {
     typed.typed({
-      strings: ["Moustafa.", "Designer.", "Developer.", "Freelancer.", "Photographer"],
+      strings: ["Moustafa."],
       typeSpeed: 100,
       loop: true,
     });
