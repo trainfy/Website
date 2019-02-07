@@ -23,7 +23,7 @@ run in your project's terminal ./push
 - [x] Automate Deployment to githuba and heroku
 - [ ] Create test and production branches to not break master
 - [x] Create PlaceHolder Folder with each section as a placeHolderSection and placeHolderTemplate to make it easier to copy and paste code
-- [ ] Create Similiar structure for the main files
+- [x] Create Similiar structure for the main files
 - [ ] Update contact Me to work
 - [ ] Populate the page with real info
 
