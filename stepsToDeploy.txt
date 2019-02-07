@@ -1,0 +1,14 @@
+// to connect to project
+git remote add origin https://github.com/trainfy/Website.git
+
+// add all files 
+git add .
+
+// commit files
+git commit -m "Something useful"
+
+//push to github
+git push -u origin master
+
+//push to heroku
+ git push heroku master
