@@ -8,7 +8,7 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="../img/favicon.png" rel="icon">
+  <link href="../img/favicon.png" rel="icon"><!-- Change This Icon To Chnage the title logo -->
   <link href="../img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -32,91 +32,58 @@
 
 <body>
 
-  <!--==========================
-  Header
-  ============================-->
+  <!-- Header -->
   <?php include '../PlaceHolder/header.inc.php'; ?>
   
-  
-  <!--==========================
-    Intro Section
-  ============================-->
+  <!-- Intro -->
   <?php include '../PlaceHolder/Sections/intro.inc.php'; ?>
-  <!-- #intro -->
   
   <main id="main">
 
-    <!--==========================
-      About Us Section
-    ============================-->
+    <!-- About Us -->
     <?php include '../PlaceHolder/Sections/about.inc.php'; ?>
     
-
-    <!--==========================
-      Services Section
-    ============================-->
+    <!-- Services -->
     <?php include '../PlaceHolder/Sections/services.inc.php'; ?>
 
-    <!--==========================
-      Why Us Section
-    ============================-->
+    <!-- Why Us -->
     <?php include '../PlaceHolder/Sections/why-us.inc.php'; ?>
 
-    <!--==========================
-      Portfolio Section
-    ============================-->
-   <?php include '../PlaceHolder/Sections/portfolio.inc.php'; ?>
+    <!-- Portfolio -->
+    <?php include '../PlaceHolder/Sections/portfolio.inc.php'; ?>
 
-    <!--==========================
-      Testimonials Section
-    ============================-->
-   <?php include '../PlaceHolder/Sections/testimonials.inc.php'; ?>
+    <!-- Terminals -->
+    <?php include '../PlaceHolder/Sections/testimonials.inc.php'; ?>
 
-    <!--==========================
-      Team Section
-    ============================-->
+    <!-- Team -->
     <?php include '../PlaceHolder/Sections/team.inc.php'; ?>
 
-    <!--==========================
-      Clients Section
-    ============================-->
+    <!-- Clients -->
     <?php include '../PlaceHolder/Sections/clients.inc.php'; ?>
 
-   <!--==========================
-      Video Section
-    ============================-->
+     <!-- Video -->
     <?php include '../PlaceHolder/Sections/video.inc.php'; ?>
   
-  <!--==========================
-    Screenshots Section
-  ============================-->
-  <?php include '../PlaceHolder/Sections/screenshots.inc.php'; ?>
+    <!-- Screenshots -->
+    <?php include '../PlaceHolder/Sections/screenshots.inc.php'; ?>
 
-   <!--==========================
-    Pricing Table Section
-  ============================-->
-  <?php include '../PlaceHolder/Sections/pricing.inc.php'; ?>
+    <!-- Pricing -->
+    <?php include '../PlaceHolder/Sections/pricing.inc.php'; ?>
 
-  <!--==========================
-      Frequently Asked Questions Section
-    ============================-->
+    <!-- FAQ -->
     <?php include '../PlaceHolder/Sections/faq.inc.php'; ?>
   
-    <!--==========================
-      Contact Section
-    ============================-->
+    <!-- Contact -->
     <?php include '../PlaceHolder/Sections/contact.inc.php'; ?>
 
   </main>
 
-  <!--==========================
-    Footer
-  ============================-->
+  <!-- Footer -->
   <?php include '../PlaceHolder/footer.inc.php'; ?>
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <!-- Uncomment below i you want to use a preloader -->
-  <!-- <div id="preloader"></div> -->
+   <div id="preloader"></div> 
 
   <!-- JavaScript Libraries -->
   <script src="../lib/jquery/jquery.min.js"></script>
