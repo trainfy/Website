@@ -110,7 +110,7 @@
   <script src="lib/typed/typed.js"></script>
   <script src="lib/modal-video/js/modal-video.js"></script>
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+  <?php include 'Sections/contact.inc.php'; ?>
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
