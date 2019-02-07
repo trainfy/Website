@@ -1,9 +1,5 @@
 <?php
-/*
-  PHP contact form script
-  Version: 1.1
-  Copyrights BootstrapMade.com
-*/
+require("../lib/sendgrid-php/sendgrid-php.php");
 
 /***************** Configuration *****************/
 
@@ -69,12 +65,25 @@
     $message_content .= '<strong>' . $email_title . '</strong> ' . $email . '<br>';
     $message_content .= '<strong>' . $message_title . '</strong> ' . nl2br($message);
 
-    $sendemail = mail($contact_email_to, $subject_title . ' ' . $subject, $message_content, $headers);
+    // $sendemail = mail($contact_email_to, $subject_title . ' ' . $subject, $message_content, $headers);
 
-    if( $sendemail ) {
-      echo 'OK';
-    } else {
-      echo 'Could not send mail! Please check your PHP mail configuration.';
-    }
+    // if( $sendemail ) {
+    //   echo 'OK';
+    // } else {
+    //   echo 'Could not send mail! Please check your PHP mail configuration.';
+    // }
+    
+    $from = new SendGrid\Email(null, $contact_email_from);
+    $to = new SendGrid\Email(null, "MoustafaElhadary96@gmail.com");
+    $content = new SendGrid\Content("text/plain", "Hello, Email!");
+    $mail = new SendGrid\Mail($from, $subject, $to, $message_content);
+    
+    $apiKey = getenv('SENDGRID_API_KEY');
+    $sg = new \SendGrid($apiKey);
+    
+    $response = $sg->client->mail()->send()->post($mail);
+    echo $response->statusCode();
+    echo $response->headers();
+    echo $response->body();
   }
 ?>
