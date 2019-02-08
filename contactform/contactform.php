@@ -5,9 +5,9 @@
 	// contains a variable called: $API_KEY that is the API Key.
 	// You need this API_KEY created on the Sendgrid website.
 	
-	$FROM_EMAIL = 'MoustafaElhadary96@gmail.com';
+	$FROM_EMAIL = 'Safinaz@psu.edu';
 	// they dont like when it comes from @gmail, prefers business emails
-	$TO_EMAIL = 'THE_PERSON_YOUR_WANT_TO_CONTACT';
+	$TO_EMAIL = 'Moustafa@psu.edu';
 	// Try to be nice. Take a look at the anti spam laws. In most cases, you must
 	// have an unsubscribe. You also cannot be misleading.
 	$subject = "YOUR_SUBJECT";
@@ -27,6 +27,6 @@
 		// Successfully sent
 		echo 'done';
 	} else {
-		echo 'false';
+		echo $response;
 	}
 ?>
