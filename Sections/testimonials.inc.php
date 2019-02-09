@@ -11,7 +11,7 @@
             <div class="owl-carousel testimonials-carousel wow fadeInUp">
     
               <div class="testimonial-item">
-                <img src="../img/testimonial-1.jpg" class="testimonial-img" alt="">
+                <img src="../img/testimonial-1.png" class="testimonial-img" alt="">
                 <h3>Saul Goodman</h3>
                 <h4>Ceo &amp; Founder</h4>
                 <p>
@@ -20,7 +20,7 @@
               </div>
     
               <div class="testimonial-item">
-                <img src="../img/testimonial-2.jpg" class="testimonial-img" alt="">
+                <img src="../img/testimonial-2.png" class="testimonial-img" alt="">
                 <h3>Sara Wilsson</h3>
                 <h4>Designer</h4>
                 <p>
@@ -29,7 +29,7 @@
               </div>
     
               <div class="testimonial-item">
-                <img src="../img/testimonial-3.jpg" class="testimonial-img" alt="">
+                <img src="../img/testimonial-3.png" class="testimonial-img" alt="">
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
                 <p>
@@ -38,7 +38,7 @@
               </div>
     
               <div class="testimonial-item">
-                <img src="../img/testimonial-4.jpg" class="testimonial-img" alt="">
+                <img src="../img/testimonial-4.png" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
                 <p>
@@ -47,7 +47,7 @@
               </div>
     
               <div class="testimonial-item">
-                <img src="../img/testimonial-5.jpg" class="testimonial-img" alt="">
+                <img src="../img/testimonial-5.png" class="testimonial-img" alt="">
                 <h3>John Larson</h3>
                 <h4>Entrepreneur</h4>
                 <p>
