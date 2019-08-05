@@ -31,8 +31,8 @@
 
   $(function() {
     typed.typed({
-      strings: ["Moustafa."],
-      typeSpeed: 100,
+      strings: ["Excellence","Quality","Innovation"],
+      typeSpeed: 150,
       loop: true,
     });
   });
