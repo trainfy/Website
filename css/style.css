@@ -180,6 +180,11 @@ h6 {
   border-radius: 5px 5px 150px 150px;
 }
 
+@media (max-width: 767px) {
+  #intro {
+    border-radius: 5px 5px 70px 70px;
+  }
+
 #intro .intro-img {
   width: 50%;
   float: right;
